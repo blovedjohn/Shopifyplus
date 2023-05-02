@@ -1,0 +1,291 @@
+body{
+  background-color: whitesmoke;
+}
+
+.card{
+  background-color: white;
+  box-shadow:5px white;
+  border: 5px solid white;
+  width: 16%;
+  height: 11%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  position: relative;
+  left: 4rem;
+}
+
+.image{
+  border-radius: 10px 10px 10px 10px;
+  width: 170px;
+  height: 170px;
+  position: relative;
+  top: 2rem;
+  left: 0.3rem;
+}
+
+
+.Details{
+  display: flex;
+}
+
+#price{
+  position: relative;
+  top: 0.5rem;
+  left: 0.4rem;
+  right: 0.9rem;
+  text-decoration: line-through;
+}
+
+#digits{
+  color: red;
+
+}
+
+.ngn{
+  position: relative;
+ top: 2rem;
+ 
+}
+
+.wind{
+  position: relative;
+ bottom: 1.4rem; 
+ overflow: hidden;
+ text-overflow: ellipsis;
+ display: -webkit-box;
+ -webkit-line-clamp: 1;
+ -webkit-box-orient: vertical;
+}
+
+.all-cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav{
+  display: flex;
+  background-color: black;
+  color: white;
+position: fixed;
+top: 0px;
+width: 78.9%;
+z-index: 1;
+  
+}
+
+.first-nav{
+  display: flex;
+  padding-left: 15px;
+  position: relative;
+  left: 0.4rem;
+  top: 5px;
+}
+
+.second-nav{
+  display: flex;
+  padding-left: 15px;
+  position: relative;
+  left: 4rem;
+  top: 5px;
+}
+
+#sec{
+  color: #d0f224;;
+}
+
+
+.plus{
+  margin-top: 1.4rem;
+}
+
+.nav-image{
+  position: relative;
+   left:1.1rem;
+   margin-left: 6rem;
+}
+
+.page{
+  background-color: black;
+  color: white;
+  position: relative;
+  bottom:1rem;
+  padding: 5rem;
+  width: 90%;
+}
+
+.food{
+  color: #d0f224;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+
+.contact{
+  background-color: #d0f224;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  width: 10%;
+  text-align: center;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 1rem;
+  font-size: 1.4rem;
+}
+
+.shelf{
+  font-size: 4rem;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 1.8rem;
+}
+
+.serve{
+  font-size:1.2rem;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 2.5rem;
+}
+
+.footer{
+  background-color: black;
+  color:grey;
+}
+
+.details{
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  position: relative;
+  right:9rem;
+}
+
+.logos{
+  position: relative;
+  left: 26rem;
+}
+
+.line{
+  background-color:white;
+  width: 76%;
+  border: 1px solid white;
+  margin-left: 10rem;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.7rem;
+  margin-bottom: 1.8rem;
+}
+
+#headline{
+  color:white;
+}
+
+.services{
+  margin-right: 9rem;
+}
+
+.manage{
+  position: relative;
+  right: 7rem;
+  bottom: 2.1rem;
+}
+
+.integrate{
+  position: relative;
+  right: 4.4rem;
+  bottom: 3.1rem;
+}
+
+.migrate{
+  position: relative;
+  bottom: 6.4rem;
+  right: 2.2rem;
+}
+.industries{
+  position: relative;
+  bottom: 2.3rem;
+}
+
+.end{
+  display: flex;
+  padding-left: 17px;
+  color: grey;
+  position: relative;
+  left: 4.6rem;
+}
+
+.footer-nav{
+  display: flex;
+  color: white;
+  position: relative;
+  right: 10rem;
+}
+
+.cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+}
+
+form{
+  margin-top: 1rem;
+  margin-left: 15px;
+  color: white;
+}
+
+.integra{
+width: 55%;
+margin-top: 0.2rem;
+}
+
+#all{
+font-size: 1.4rem;
+}
+
+.plat{
+  position: relative;
+  left: 9rem;
+  width: 50%;
+  margin-top: 0.2rem;
+}
+
+.fixed{
+  background-color: #d0f224;
+  color: white;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 15%;
+  font-size: 1.2rem;
+  text-align: center;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+}
+
+.shop{
+  margin-right: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
